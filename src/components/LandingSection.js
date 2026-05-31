@@ -14,11 +14,11 @@ const LandingSection = ({ onStartPrediction }) => {
           />
         </div>
 
-        <div className="landing-tag">✦ AI-Powered Astrology</div>
+        <div className="landing-tag">✦ AI-Powered Crypto Astrology</div>
 
         <h1 className="landing-h1">
-          Future Mein <br />
-          Kya Likha Hai?
+          Apka Future<br />
+          Kesa Hoga 2026?
         </h1>
 
         <p className="landing-subtitle">
@@ -43,8 +43,8 @@ For Prediction click below button.
           className="btn-cta"
           onClick={onStartPrediction}
         >
-          ✨ Start Prediction
-          <span className="btn-cta-price">₹1</span>
+          ✨ Future Dekho
+          <span className="btn-cta-price">₹5</span>
         </button>
 
         <p className="landing-trust">

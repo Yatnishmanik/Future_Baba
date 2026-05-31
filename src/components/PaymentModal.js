@@ -26,7 +26,7 @@ const PaymentModal = ({ isOpen, onClose, onSuccess }) => {
 
     const options = {
       key: "rzp_live_SvSE8Pl2T4a1zP", // Provided user API key
-      amount: "100", // ₹1 in paise
+      amount: "500", // ₹5 in paise
       currency: "INR",
       name: "FutureBaba",
       description: "Cosmic Destiny Prediction",
@@ -61,14 +61,14 @@ const PaymentModal = ({ isOpen, onClose, onSuccess }) => {
         <div className="payment-modal-header">
           <div className="payment-modal-icon">🔮</div>
           <h2 className="payment-modal-title">Complete Secure Payment</h2>
-          <p className="payment-modal-subtitle">Real prediction requires a symbolic offering of ₹1</p>
+          <p className="payment-modal-subtitle">Real prediction requires a symbolic offering of ₹5</p>
         </div>
 
         <div className="payment-modal-body">
           <div className="payment-steps-box" style={{ textAlign: "center", padding: "16px" }}>
             <p style={{ color: "rgba(255,255,255,0.8)", marginBottom: "16px", lineHeight: "1.6" }}>
               Click below to pay via <strong>PhonePe / GPay / Paytm</strong> directly. <br/><br/>
-              Once the ₹1 transaction is successful, your form will open automatically!
+              Once the ₹5 transaction is successful, your form will open automatically!
             </p>
           </div>
 
@@ -79,7 +79,7 @@ const PaymentModal = ({ isOpen, onClose, onSuccess }) => {
               disabled={isProcessing}
               style={{ width: "100%" }}
             >
-              {isProcessing ? "Opening Secure Payment..." : "💳 Pay ₹1 with UPI / Cards"}
+              {isProcessing ? "Opening Secure Payment..." : "💳 Pay ₹5 with UPI / Cards"}
             </button>
           </div>
         </div>
