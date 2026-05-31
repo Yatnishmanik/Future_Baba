@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { getAuraScore, getLifePathNumber, getPersonalYear } from "../utils/zodiac";
+import { getAuraScore, getLifePathNumber } from "../utils/zodiac";
 import { 
   getLoveMarriagePercent,
   getRichMindsetScore,
